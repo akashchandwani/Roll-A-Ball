@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 65360725305138544}
   - component: {fileID: 23795751328698426}
   - component: {fileID: 114010058660011996}
+  - component: {fileID: 54948673126306258}
   m_Layer: 0
   m_Name: Pick Up
   m_TagString: Pick Up
@@ -37,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1971972787600576}
   m_LocalRotation: {x: 0.21467984, y: 0.18882379, z: 0.33527032, w: 0.89769256}
-  m_LocalPosition: {x: 3.54, y: 0.5, z: -3.34}
+  m_LocalPosition: {x: 0, y: 0.5, z: -5}
   m_LocalScale: {x: 0.49999994, y: 0.49999988, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,6 +85,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1971972787600576}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54948673126306258
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1971972787600576}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &65360725305138544
 BoxCollider:
   m_ObjectHideFlags: 1
